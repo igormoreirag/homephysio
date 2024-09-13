@@ -1,0 +1,23 @@
+uuid: e0e3533f-fd5c-4f25-837e-d5bfa6f39532
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_dias
+    - paragraphs.paragraphs_type.fase_protocolar
+id: paragraph.fase_protocolar.field_dias
+field_name: field_dias
+entity_type: paragraph
+bundle: fase_protocolar
+label: Dias
+description: 'Dias de tratamento nesta fase.<br>Ex: Se o paciente deve permanecer nesta fase do dia 1° ao 14° dia pós cirurgico, o valor desse campo será <b>14</b>'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 100
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,22 @@
+uuid: 518303fa-55df-48f0-8999-482f887e887e
+langcode: pt-br
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - homephysio
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: homephysio_help
+theme: homephysio
+region: hero
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ajuda
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,17 @@
+uuid: 0e860b15-ebe9-471e-a696-7751b91f5845
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: us_vQH9Jxw19MJGu7TIDC87xGVFEdTMRzPHQYUzNCYw
+name: advanced_pwa_icon_256
+label: 'advanced_pwa Icon (256 x 256)'
+effects:
+  advanced_pwa_icon_256:
+    uuid: advanced_pwa_icon_256
+    id: image_scale
+    weight: 1
+    data:
+      width: 256
+      height: 256
+      upscale: false

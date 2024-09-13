@@ -1,0 +1,24 @@
+uuid: 8f8c9c1a-cc55-4f24-8289-d4d63e0f7d94
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - file
+    - filter
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
+id: authenticated
+label: 'Usuário autenticado'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access shortcuts'
+  - 'delete own files'
+  - 'search content'
+  - 'use text format basic_html'

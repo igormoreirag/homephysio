@@ -1,0 +1,31 @@
+uuid: be0e0f0a-052d-4116-9db9-b6ea30f35d20
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.protocolo.field_fases_e_orientacoes
+    - node.type.protocolo
+  module:
+    - entity_reference_revisions
+    - user
+id: node.protocolo.default
+targetEntityType: node
+bundle: protocolo
+mode: default
+content:
+  field_fases_e_orientacoes:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

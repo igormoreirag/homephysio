@@ -1,0 +1,21 @@
+uuid: 8347ad94-3983-4b09-8e51-d9fca60ad6a8
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_fases_e_orientacoes
+field_name: field_fases_e_orientacoes
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

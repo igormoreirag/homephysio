@@ -1,0 +1,11 @@
+uuid: 3fed75d4-89cc-400d-9fb0-bd72386a5059
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.protocolo
+id: node.protocolo
+target_entity_type_id: node
+target_bundle: protocolo
+default_langcode: site_default
+language_alterable: false

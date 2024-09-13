@@ -1,0 +1,19 @@
+uuid: efbc53fc-a66c-4073-825c-b1f6c738555b
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_objetivos
+field_name: field_objetivos
+entity_type: paragraph
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

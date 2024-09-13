@@ -1,0 +1,10 @@
+uuid: 8d9ecf49-cdd0-470f-80b8-ea112b42fa09
+langcode: pt-br
+status: true
+dependencies: {  }
+id: fase_protocolar
+label: 'Fase protocolar'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

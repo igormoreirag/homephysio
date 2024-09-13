@@ -1,0 +1,10 @@
+uuid: 147a9534-44db-4792-8892-232f964e02fa
+langcode: pt-br
+status: true
+dependencies: {  }
+id: orientacoes
+label: 'Orientações de tratamento'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

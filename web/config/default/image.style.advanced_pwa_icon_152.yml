@@ -1,0 +1,17 @@
+uuid: 3f8f7eb2-fdd9-407e-81d3-6fa6bcd67e82
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _8r3l7JzYeIxANxtbsvor6yS0MjI28IkYb8QYgziR6M
+name: advanced_pwa_icon_152
+label: 'advanced_pwa Icon (152 x 152)'
+effects:
+  advanced_pwa_icon_152:
+    uuid: advanced_pwa_icon_152
+    id: image_scale
+    weight: 1
+    data:
+      width: 152
+      height: 152
+      upscale: false

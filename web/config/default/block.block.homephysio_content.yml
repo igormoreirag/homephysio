@@ -1,0 +1,22 @@
+uuid: a7df9ed3-c97e-43ee-9a1b-ad0f37769391
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - homephysio
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: homephysio_content
+theme: homephysio
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Conteúdo da página principal'
+  label_display: '0'
+  provider: system
+visibility: {  }

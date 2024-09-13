@@ -1,0 +1,51 @@
+uuid: f3f5c04b-9c1e-48be-b3b2-c9c8a1f2fc64
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bloco_orientacoes
+    - paragraphs.paragraphs_type.fase_protocolar
+    - views.view.orientation
+  module:
+    - viewfield
+id: paragraph.fase_protocolar.field_bloco_orientacoes
+field_name: field_bloco_orientacoes
+entity_type: paragraph
+bundle: fase_protocolar
+label: 'Bloco de orientacoes da views'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: edada057-44a7-4a2d-983a-483ac00c366a
+    display_id: block_1
+    arguments: '[paragraph:id]'
+    items_to_display: ''
+    token_help: ''
+default_value_callback: ''
+settings:
+  force_default: false
+  allowed_views:
+    orientation: orientation
+    files: '0'
+    who_s_online: '0'
+    block_content: '0'
+    content: '0'
+    content_recent: '0'
+    meu_tratamento: '0'
+    who_s_new: '0'
+    user_admin_people: '0'
+    frontpage: '0'
+    taxonomy_term: '0'
+    watchdog: '0'
+  allowed_display_types:
+    block: block
+    feed: '0'
+    default: '0'
+    page: '0'
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: viewfield

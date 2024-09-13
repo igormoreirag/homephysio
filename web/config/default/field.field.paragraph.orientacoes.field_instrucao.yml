@@ -1,0 +1,19 @@
+uuid: c820c411-8dc8-47cb-90b1-4896e6b55fbc
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_instrucao
+    - paragraphs.paragraphs_type.orientacoes
+id: paragraph.orientacoes.field_instrucao
+field_name: field_instrucao
+entity_type: paragraph
+bundle: orientacoes
+label: Instrução
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

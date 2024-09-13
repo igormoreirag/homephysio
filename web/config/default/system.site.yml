@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: pt-br
+uuid: dc0e55ae-7ff4-4b49-b07a-f39e2a6bc4e6
+name: HomePhysio
+mail: igormoreirag@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: pt-br
+mail_notification: null

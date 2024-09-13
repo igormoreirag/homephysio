@@ -1,0 +1,17 @@
+uuid: b3c9bc1b-8d79-4647-99a2-7cc918fac374
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: FS6PsMxrXSrZu36jwE84rUM9ZKeWVKZ7A16C75lGqRk
+name: advanced_pwa_icon_144
+label: 'advanced_pwa Icon (144 x 144)'
+effects:
+  advanced_pwa_icon_144:
+    uuid: advanced_pwa_icon_144
+    id: image_scale
+    weight: 1
+    data:
+      width: 144
+      height: 144
+      upscale: false

@@ -1,0 +1,23 @@
+uuid: d17b74dc-7cf2-4911-a7a4-0b12d2407bdb
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - homephysio
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: homephysio_search_form_wide
+theme: homephysio
+region: secondary_menu
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulário de busca (largo)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

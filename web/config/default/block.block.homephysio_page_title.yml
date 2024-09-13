@@ -1,0 +1,20 @@
+uuid: d455a672-41cb-4df7-9f74-b0b587444328
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - homephysio
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: homephysio_page_title
+theme: homephysio
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título da página'
+  label_display: '0'
+  provider: core
+visibility: {  }

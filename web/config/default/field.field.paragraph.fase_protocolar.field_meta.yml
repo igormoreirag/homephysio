@@ -1,0 +1,19 @@
+uuid: 0871403a-03c4-4bd8-a5bd-5354a10bab73
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_meta
+    - paragraphs.paragraphs_type.fase_protocolar
+id: paragraph.fase_protocolar.field_meta
+field_name: field_meta
+entity_type: paragraph
+bundle: fase_protocolar
+label: Meta
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

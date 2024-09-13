@@ -1,0 +1,34 @@
+uuid: 27fd010f-57dd-4d62-8af8-0f613d97c9ff
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_orientacoes
+    - paragraphs.paragraphs_type.fase_protocolar
+    - paragraphs.paragraphs_type.orientacoes
+  module:
+    - entity_reference_revisions
+id: paragraph.fase_protocolar.field_orientacoes
+field_name: field_orientacoes
+entity_type: paragraph
+bundle: fase_protocolar
+label: Orientações
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      orientacoes: orientacoes
+    negate: 0
+    target_bundles_drag_drop:
+      fase_protocolar:
+        weight: 3
+        enabled: false
+      orientacoes:
+        weight: 4
+        enabled: true
+field_type: entity_reference_revisions

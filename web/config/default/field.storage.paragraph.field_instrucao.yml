@@ -1,0 +1,19 @@
+uuid: bd30c6c1-2d16-4373-88c8-56144b4ae3e5
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_instrucao
+field_name: field_instrucao
+entity_type: paragraph
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

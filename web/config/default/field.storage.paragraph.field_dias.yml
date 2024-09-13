@@ -1,0 +1,20 @@
+uuid: 3a2db690-df49-4f26-bbeb-d4e052e88c3b
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_dias
+field_name: field_dias
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

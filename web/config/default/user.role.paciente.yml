@@ -1,0 +1,9 @@
+uuid: dff9abe9-3cff-43c0-8f17-25fea5bdfde6
+langcode: pt-br
+status: true
+dependencies: {  }
+id: paciente
+label: Paciente
+weight: 4
+is_admin: null
+permissions: {  }

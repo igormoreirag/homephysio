@@ -1,0 +1,54 @@
+uuid: e2524e2b-9a5d-444d-97a9-65070405281f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.fase_protocolar.field_bloco_orientacoes
+    - field.field.paragraph.fase_protocolar.field_dias
+    - field.field.paragraph.fase_protocolar.field_meta
+    - field.field.paragraph.fase_protocolar.field_objetivos
+    - field.field.paragraph.fase_protocolar.field_orientacoes
+    - field.field.paragraph.fase_protocolar.field_titulo
+    - paragraphs.paragraphs_type.fase_protocolar
+  module:
+    - viewfield
+id: paragraph.fase_protocolar.default
+targetEntityType: paragraph
+bundle: fase_protocolar
+mode: default
+content:
+  field_bloco_orientacoes:
+    type: viewfield_default
+    label: hidden
+    settings:
+      view_title: hidden
+      always_build_output: false
+      empty_view_title: inline
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_meta:
+    type: basic_string
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_objetivos:
+    type: basic_string
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_titulo:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_dias: true
+  field_orientacoes: true

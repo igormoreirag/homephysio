@@ -1,0 +1,35 @@
+uuid: 7d0e5df2-19e0-4da2-bcf9-f1a25d4da781
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.orientacoes.field_imagem
+    - field.field.paragraph.orientacoes.field_instrucao
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.orientacoes
+  module:
+    - image
+id: paragraph.orientacoes.default
+targetEntityType: paragraph
+bundle: orientacoes
+mode: default
+content:
+  field_imagem:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_instrucao:
+    type: string_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

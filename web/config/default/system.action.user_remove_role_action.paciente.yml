@@ -1,0 +1,14 @@
+uuid: 5ccda49e-65dc-41ec-81c0-0ac3f9f1b3bb
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - user.role.paciente
+  module:
+    - user
+id: user_remove_role_action.paciente
+label: 'Remover o papel Paciente dos usuários selecionados'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: paciente

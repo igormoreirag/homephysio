@@ -1,0 +1,17 @@
+uuid: 7bb5c3d3-85f7-4741-bb61-d322d71f9950
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ZWnghSjWZOcZlKQf5raBabE1Hbx1QmNxgbD3ugieMUQ
+name: advanced_pwa_icon_512
+label: 'advanced_pwa Icon (512 x 512)'
+effects:
+  advanced_pwa_icon_512:
+    uuid: advanced_pwa_icon_512
+    id: image_scale
+    weight: 1
+    data:
+      width: 512
+      height: 512
+      upscale: false

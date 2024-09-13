@@ -1,0 +1,19 @@
+_core:
+  default_config_hash: JqWa8QbtEoe7XmjZKW3EhsaxgqdFAsxFUC18xUULtBo
+screenshots: {  }
+status:
+  all: null
+name: HomePhysio
+short_name: HomePhysio
+icons:
+  icon:
+    - '20'
+start_url: /
+background_color: '#1b9ae4'
+theme_color: '#ffffff'
+display: standalone
+orientation: portrait
+prompt_timing: 3
+app_id: homephysio.lndo.app
+app_description: 'Protocolos pos cirurgicos para pacientes do SUS.'
+dir: ltr

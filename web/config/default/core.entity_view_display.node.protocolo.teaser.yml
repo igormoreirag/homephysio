@@ -1,0 +1,23 @@
+uuid: 1e6c658a-9849-454e-99a9-8923da193c57
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.protocolo.field_fases_e_orientacoes
+    - node.type.protocolo
+  module:
+    - user
+id: node.protocolo.teaser
+targetEntityType: node
+bundle: protocolo
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_fases_e_orientacoes: true
+  langcode: true

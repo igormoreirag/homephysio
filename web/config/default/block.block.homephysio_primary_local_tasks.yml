@@ -1,0 +1,22 @@
+uuid: b384bf27-1007-456f-b16e-197fb3ccc37a
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - homephysio
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: homephysio_primary_local_tasks
+theme: homephysio
+region: highlighted
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Abas primárias'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

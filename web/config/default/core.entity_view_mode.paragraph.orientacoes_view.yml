@@ -1,0 +1,11 @@
+uuid: 272b782f-02ff-4935-a7cb-d9e0fdd665d0
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.orientacoes_view
+label: 'Orientacoes View'
+description: ''
+targetEntityType: paragraph
+cache: true

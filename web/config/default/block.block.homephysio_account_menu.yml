@@ -1,0 +1,27 @@
+uuid: febbdb9a-bc5f-45d8-91d0-0fd6192f6455
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - homephysio
+_core:
+  default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
+id: homephysio_account_menu
+theme: homephysio
+region: secondary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Menu de conta de usuário'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,55 @@
+uuid: 6b85073f-f9f4-4d8c-80c6-69cf6de31642
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_cirurgia_do_paciente
+    - field.field.user.user.field_data_da_cirurgia
+    - field.field.user.user.user_picture
+  module:
+    - datetime
+    - image
+    - user
+_core:
+  default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  contact:
+    weight: 5
+    region: content
+  field_cirurgia_do_paciente:
+    type: entity_reference_autocomplete
+    weight: 2
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_data_da_cirurgia:
+    type: datetime_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  user_picture:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  language: true
+  timezone: true

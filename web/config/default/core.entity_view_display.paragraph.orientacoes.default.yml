@@ -1,0 +1,34 @@
+uuid: 4f4ab6e5-7e18-4732-b44f-58834b85fa3d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.orientacoes.field_imagem
+    - field.field.paragraph.orientacoes.field_instrucao
+    - paragraphs.paragraphs_type.orientacoes
+  module:
+    - image
+id: paragraph.orientacoes.default
+targetEntityType: paragraph
+bundle: orientacoes
+mode: default
+content:
+  field_imagem:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_instrucao:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

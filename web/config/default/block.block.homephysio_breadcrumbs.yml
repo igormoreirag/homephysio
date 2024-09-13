@@ -1,0 +1,22 @@
+uuid: 16a7f776-5c44-480f-8cc0-710c376d8b96
+langcode: pt-br
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - homephysio
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: homephysio_breadcrumbs
+theme: homephysio
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

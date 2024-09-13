@@ -1,0 +1,51 @@
+uuid: a1a70e28-ffb4-489c-b2d6-182ed11d66e9
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_cirurgia_do_paciente
+    - field.field.user.user.field_data_da_cirurgia
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - datetime
+    - image
+    - user
+_core:
+  default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_cirurgia_do_paciente:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_data_da_cirurgia:
+    type: datetime_custom
+    label: inline
+    settings:
+      timezone_override: ''
+      date_format: d-m-Y
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  user_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  member_for: true

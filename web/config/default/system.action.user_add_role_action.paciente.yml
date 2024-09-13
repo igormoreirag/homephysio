@@ -1,0 +1,14 @@
+uuid: b1771313-6a12-4523-b67f-e50cbeab287c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - user.role.paciente
+  module:
+    - user
+id: user_add_role_action.paciente
+label: 'Adiciona o papel Paciente para o(s) usuário(s) selecionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: paciente

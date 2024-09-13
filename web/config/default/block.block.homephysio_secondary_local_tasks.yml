@@ -1,0 +1,22 @@
+uuid: 98419311-4b5a-41a3-86fe-811266b52980
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - homephysio
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: homephysio_secondary_local_tasks
+theme: homephysio
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Abas secundárias'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

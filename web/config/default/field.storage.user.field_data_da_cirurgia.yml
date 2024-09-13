@@ -1,0 +1,20 @@
+uuid: c3af6139-4cb9-42dd-ab68-74a134bd88af
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - datetime
+    - user
+id: user.field_data_da_cirurgia
+field_name: field_data_da_cirurgia
+entity_type: user
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

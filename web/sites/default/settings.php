@@ -902,6 +902,6 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_b6FmSx8uumzrcWhSMvQq2zhGmyXEbOSvQ53LLc-VitVZhNyFoyHzKbOt1GwY9WXEKAdF4xruCQ/sync';
+$settings['config_sync_directory'] = 'config/default';
 
 ini_set('memory_limit', '1024M');
