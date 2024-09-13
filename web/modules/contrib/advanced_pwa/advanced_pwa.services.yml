@@ -1,7 +1,0 @@
-services:
-  advanced_pwa.push_notifications:
-    class: Drupal\advanced_pwa\Model\SubscriptionsDatastorage
-  advanced_pwa.logout_subscriber:
-    class: Drupal\advanced_pwa\EventSubscriber\AdvancedPwaLogoutSubscriber
-    tags:
-      - { name: event_subscriber  }

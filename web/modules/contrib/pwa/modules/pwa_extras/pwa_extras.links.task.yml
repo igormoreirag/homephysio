@@ -1,4 +1,0 @@
-pwa_extras.settings:
-  route_name: pwa_extras.settings
-  title: 'PWA Extras'
-  base_route: pwa.config_manifest

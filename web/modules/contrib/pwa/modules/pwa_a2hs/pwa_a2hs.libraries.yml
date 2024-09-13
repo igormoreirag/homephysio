@@ -1,8 +1,0 @@
-pwa_a2hs_prompt:
-  version: VERSION
-  js:
-    js/pwa_a2hs_prompt.js: {}
-  dependencies:
-    - core/drupal
-    - core/jquery
-    - core/once
