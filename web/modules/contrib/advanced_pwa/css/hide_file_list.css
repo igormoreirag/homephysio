@@ -1,0 +1,7 @@
+div#edit-screenshots .form-type-checkbox {
+  display: none;
+}
+
+input#edit-screenshots-remove-button {
+  display: none;
+}

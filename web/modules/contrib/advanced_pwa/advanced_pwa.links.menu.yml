@@ -1,0 +1,10 @@
+advanced_pwa.admin_settings:
+  title: 'Advanced PWA Settings'
+  description: 'Configure the Manifest.json output.'
+  parent: system.admin_config_system
+  route_name: advanced_pwa.settings
+advanced_pwa.push_settings:
+  title: 'Push settings'
+  description: 'Configure the Push notifications settings.'
+  parent: advanced_pwa.settings
+  route_name: advanced_pwa.config.push_conf

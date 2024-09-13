@@ -1,0 +1,11 @@
+name: Advanced PWA
+type: module
+package: Advanced PWA
+description: Make your site a 'Progressive Web App' and send 'push notifications' to users
+core_version_requirement: ^8 || ^9 || ^10
+configure: 'advanced_pwa.settings'
+
+# Information added by Drupal.org packaging script on 2024-06-27
+version: '8.x-1.71'
+project: 'advanced_pwa'
+datestamp: 1719455335

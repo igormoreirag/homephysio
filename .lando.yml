@@ -1,0 +1,4 @@
+name: homephysio
+recipe: drupal10
+config:
+  webroot: web

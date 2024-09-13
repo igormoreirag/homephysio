@@ -1,0 +1,9 @@
+name: Advanced PWA Unregister
+type: module
+description: If you uninstall the Advanced PWA module, there will be clients/ visitors with active service workers. By installing this after uninstalling Advanced PWA, it will instruct visitor browsers to unregister the service worker on their device. This module will need to remain on.
+core_version_requirement: ^8 || ^9 || ^10
+
+# Information added by Drupal.org packaging script on 2024-06-27
+version: '8.x-1.71'
+project: 'advanced_pwa'
+datestamp: 1719455335

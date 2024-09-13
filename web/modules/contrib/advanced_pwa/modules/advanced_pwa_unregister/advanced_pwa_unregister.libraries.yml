@@ -1,0 +1,5 @@
+unregister:
+  js:
+    js/advanced_pwa_unregister.js: {}
+  dependencies:
+    - core/jquery

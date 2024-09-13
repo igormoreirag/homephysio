@@ -1,0 +1,3 @@
+display push notification prompt:
+  title: 'display push notification prompt'
+  description: 'Allows the user access to register for push notifications'

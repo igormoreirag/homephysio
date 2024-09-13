@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_page_attachments().
+ */
+function advanced_pwa_unregister_page_attachments(array &$page) {
+    
+  // Attach the library to unregister the service worker.
+  $page['#attached']['library'][] = 'advanced_pwa_unregister/unregister';
+
+}

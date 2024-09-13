@@ -1,0 +1,38 @@
+advanced_pwa.js:
+  version: 1.x
+  js:
+    js/main.js: {}
+  dependencies:
+    - core/jquery
+    - core/js-cookie
+    - core/once
+    - core/ajax
+    - core/drupal 
+    - core/drupalSettings
+    - core/drupal.dialog.ajax
+advanced_pwa.login:
+  version: 1.x
+  js:
+    js/login.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+advanced_pwa.draggable:
+  version: 1.x
+  js:
+    js/advanced_pwa_draggable.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/drupal.tabledrag
+advanced_pwa.hide_screenshot_file_list:
+  css:
+    theme:
+      css/hide_file_list.css: {}
+  js:
+    js/hide_file_list.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
